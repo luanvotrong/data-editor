@@ -67,16 +67,8 @@
 		D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B0611A1803AB670077942B /* CoreMotion.framework */; };
 		ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7B1B68A1F400C3958E /* libiconv.dylib */; };
 		ED545A7E1B68A1FA00C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7D1B68A1FA00C3958E /* libiconv.dylib */; };
-		F1A5C2771CF548A80074E098 /* Road.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A5C2731CF548A80074E098 /* Road.cpp */; };
-		F1A5C2781CF548A80074E098 /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A5C2751CF548A80074E098 /* Vehicle.cpp */; };
 		F1A5C27C1CF548C00074E098 /* RacingScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A5C27A1CF548C00074E098 /* RacingScene.cpp */; };
-		F1E5F6951CFC916D00CC6EA0 /* CCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1E5F6911CFC916D00CC6EA0 /* CCamera.cpp */; };
-		F1E5F6961CFC916D00CC6EA0 /* RoadSegment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1E5F6931CFC916D00CC6EA0 /* RoadSegment.cpp */; };
 		F1E5F6971CFC917400CC6EA0 /* RacingScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A5C27A1CF548C00074E098 /* RacingScene.cpp */; };
-		F1E5F6981CFC917400CC6EA0 /* CCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1E5F6911CFC916D00CC6EA0 /* CCamera.cpp */; };
-		F1E5F6991CFC917400CC6EA0 /* RoadSegment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1E5F6931CFC916D00CC6EA0 /* RoadSegment.cpp */; };
-		F1E5F69A1CFC917400CC6EA0 /* Road.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A5C2731CF548A80074E098 /* Road.cpp */; };
-		F1E5F69B1CFC917400CC6EA0 /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A5C2751CF548A80074E098 /* Vehicle.cpp */; };
 		F1E5F6A31CFC919D00CC6EA0 /* Cars in Resources */ = {isa = PBXBuildFile; fileRef = F1E5F69E1CFC919D00CC6EA0 /* Cars */; };
 		F1E5F6A41CFC919D00CC6EA0 /* Cars in Resources */ = {isa = PBXBuildFile; fileRef = F1E5F69E1CFC919D00CC6EA0 /* Cars */; };
 		F1E5F6A51CFC919D00CC6EA0 /* Characters in Resources */ = {isa = PBXBuildFile; fileRef = F1E5F69F1CFC919D00CC6EA0 /* Characters */; };
@@ -87,8 +79,6 @@
 		F1E5F6AA1CFC919D00CC6EA0 /* Objects in Resources */ = {isa = PBXBuildFile; fileRef = F1E5F6A11CFC919D00CC6EA0 /* Objects */; };
 		F1E5F6AB1CFC919D00CC6EA0 /* Tiles in Resources */ = {isa = PBXBuildFile; fileRef = F1E5F6A21CFC919D00CC6EA0 /* Tiles */; };
 		F1E5F6AC1CFC919D00CC6EA0 /* Tiles in Resources */ = {isa = PBXBuildFile; fileRef = F1E5F6A21CFC919D00CC6EA0 /* Tiles */; };
-		F1E5F6B01CFC9DBC00CC6EA0 /* CController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1E5F6AE1CFC9DBC00CC6EA0 /* CController.cpp */; };
-		F1E5F6B11CFC9DBC00CC6EA0 /* CController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1E5F6AE1CFC9DBC00CC6EA0 /* CController.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,16 +172,8 @@
 		ED545A7B1B68A1F400C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
 		ED545A7D1B68A1FA00C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		F10A69AC1CFDD72C001D78B3 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Singleton.h; path = Libs/Singleton/Singleton.h; sourceTree = "<group>"; };
-		F1A5C2731CF548A80074E098 /* Road.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Road.cpp; path = GameObjects/Road.cpp; sourceTree = "<group>"; };
-		F1A5C2741CF548A80074E098 /* Road.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Road.h; path = GameObjects/Road.h; sourceTree = "<group>"; };
-		F1A5C2751CF548A80074E098 /* Vehicle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vehicle.cpp; path = GameObjects/Vehicle.cpp; sourceTree = "<group>"; };
-		F1A5C2761CF548A80074E098 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vehicle.h; path = GameObjects/Vehicle.h; sourceTree = "<group>"; };
 		F1A5C27A1CF548C00074E098 /* RacingScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RacingScene.cpp; path = Scenes/RacingScene.cpp; sourceTree = "<group>"; };
 		F1A5C27B1CF548C00074E098 /* RacingScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RacingScene.h; path = Scenes/RacingScene.h; sourceTree = "<group>"; };
-		F1E5F6911CFC916D00CC6EA0 /* CCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CCamera.cpp; path = GameObjects/CCamera.cpp; sourceTree = "<group>"; };
-		F1E5F6921CFC916D00CC6EA0 /* CCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCamera.h; path = GameObjects/CCamera.h; sourceTree = "<group>"; };
-		F1E5F6931CFC916D00CC6EA0 /* RoadSegment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RoadSegment.cpp; path = GameObjects/RoadSegment.cpp; sourceTree = "<group>"; };
-		F1E5F6941CFC916D00CC6EA0 /* RoadSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoadSegment.h; path = GameObjects/RoadSegment.h; sourceTree = "<group>"; };
 		F1E5F69C1CFC918100CC6EA0 /* const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = const.h; sourceTree = "<group>"; };
 		F1E5F69D1CFC918100CC6EA0 /* GameDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDefine.h; sourceTree = "<group>"; };
 		F1E5F69E1CFC919D00CC6EA0 /* Cars */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Cars; sourceTree = "<group>"; };
@@ -199,8 +181,6 @@
 		F1E5F6A01CFC919D00CC6EA0 /* Motorcycles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Motorcycles; sourceTree = "<group>"; };
 		F1E5F6A11CFC919D00CC6EA0 /* Objects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Objects; sourceTree = "<group>"; };
 		F1E5F6A21CFC919D00CC6EA0 /* Tiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tiles; sourceTree = "<group>"; };
-		F1E5F6AE1CFC9DBC00CC6EA0 /* CController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CController.cpp; path = GameObjects/CController.cpp; sourceTree = "<group>"; };
-		F1E5F6AF1CFC9DBC00CC6EA0 /* CController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CController.h; path = GameObjects/CController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -418,16 +398,6 @@
 		F1A5C2721CF547DF0074E098 /* GameObjects */ = {
 			isa = PBXGroup;
 			children = (
-				F1E5F6AE1CFC9DBC00CC6EA0 /* CController.cpp */,
-				F1E5F6AF1CFC9DBC00CC6EA0 /* CController.h */,
-				F1E5F6911CFC916D00CC6EA0 /* CCamera.cpp */,
-				F1E5F6921CFC916D00CC6EA0 /* CCamera.h */,
-				F1E5F6931CFC916D00CC6EA0 /* RoadSegment.cpp */,
-				F1E5F6941CFC916D00CC6EA0 /* RoadSegment.h */,
-				F1A5C2731CF548A80074E098 /* Road.cpp */,
-				F1A5C2741CF548A80074E098 /* Road.h */,
-				F1A5C2751CF548A80074E098 /* Vehicle.cpp */,
-				F1A5C2761CF548A80074E098 /* Vehicle.h */,
 			);
 			name = GameObjects;
 			sourceTree = "<group>";
@@ -592,16 +562,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1E5F6951CFC916D00CC6EA0 /* CCamera.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				F1A5C27C1CF548C00074E098 /* RacingScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
-				F1A5C2781CF548A80074E098 /* Vehicle.cpp in Sources */,
-				F1A5C2771CF548A80074E098 /* Road.cpp in Sources */,
-				F1E5F6961CFC916D00CC6EA0 /* RoadSegment.cpp in Sources */,
-				F1E5F6B01CFC9DBC00CC6EA0 /* CController.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,12 +574,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1E5F6981CFC917400CC6EA0 /* CCamera.cpp in Sources */,
-				F1E5F6B11CFC9DBC00CC6EA0 /* CController.cpp in Sources */,
-				F1E5F6991CFC917400CC6EA0 /* RoadSegment.cpp in Sources */,
-				F1E5F69B1CFC917400CC6EA0 /* Vehicle.cpp in Sources */,
 				F1E5F6971CFC917400CC6EA0 /* RacingScene.cpp in Sources */,
-				F1E5F69A1CFC917400CC6EA0 /* Road.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 			);

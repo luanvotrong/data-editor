@@ -3,8 +3,8 @@
 
 USING_NS_CC;
 
-static Size designResolutionSize = cocos2d::Size(320, 480);
-static Size largeResolutionSize = cocos2d::Size(750, 1334);//(2048, 1536);
+static Size designResolutionSize = cocos2d::Size(1200, 720);
+static Size largeResolutionSize = cocos2d::Size(1200, 720);//(2048, 1536);
 
 AppDelegate::AppDelegate() {
 
